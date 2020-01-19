@@ -26,7 +26,7 @@ def naiveBayesClassifier(x1, x2, mu1_7, std1_7, mu2_7, std2_7, mu1_8, std1_8, mu
 
 #Starting main
 #loading dataset
-Numpyfile= scipy.io.loadmat('mnist_data.mat')
+Numpyfile= scipy.io.loadmat('data/mnist_data.mat')
 
 #separating training and testing data and labels
 trainX = Numpyfile['trX']
